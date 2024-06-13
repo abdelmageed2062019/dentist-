@@ -1,0 +1,112 @@
+header {
+  background-image: url("../images/download.jpg");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  padding: 10px 20px;
+  background-color: #ed7c6a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.title {
+  margin-top: 10rem;
+  background-color: rgb(87, 161, 137, 0.6);
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.title h2 {
+  color: white;
+  font-size: 3.5rem;
+}
+
+nav .btn-logout {
+  padding: 10px 20px;
+  background-color: #ed7c6a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.underline {
+  font-size: 40px;
+  color: #074d4c;
+  display: inline;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.underline::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #e98317;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.green-heading {
+  color: #439da5;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#affairs {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgb(72, 145, 142)
+    ),
+    url(./images/doctor.jpg);
+  background-size: cover;
+  margin-top: -10rem;
+  transform: skewY(-4deg);
+}
+
+#affairs .container {
+  transform: skewY(4deg);
+}
+
+.lg-m-bot {
+  margin-bottom: 10rem;
+}
+
+p.feature-title {
+  margin-block: 10px;
+  font-size: 20px;
+  color: #439da5;
+}
+
+footer {
+  background-color: #0f7b65;
+  color: white;
+  padding: 40px 20px;
+  border-top-left-radius: 280px;
+  border-top-right-radius: 280px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ed7c6a;
+}
+
+.footer-content ul li {
+  margin-bottom: 10px;
+}
